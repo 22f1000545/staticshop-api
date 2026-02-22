@@ -22,9 +22,26 @@
     {"id": "prod-e9fe7834-016", "name": "Basic Item 16", "category": "books", "price": 367.14, "stock": 108, "rating": 1.7}
   ],
   "aggregations": {
-    "sports": {
-      "count": 4,
-      "inventoryValue": 90393.05
-    }
+  "clothing": {
+    "count": 5,
+    "inventoryValue": 63273.89
+  },
+  "home": {
+    "count": 2,
+    "inventoryValue": 45266.56
+  },
+  "sports": {
+    "count": 4,
+    "inventoryValue": 90393.05
+  },
+  "electronics": {
+    "count": 2,
+    "inventoryValue":  64765.91
+  },
+  "books": {
+    "count": 3,
+    "inventoryValue":  114879.48
+  }
+}
   }
 }
