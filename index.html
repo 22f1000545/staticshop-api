@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<title>StaticShop API</title>
+<h1>✅ JSON API Live</h1>
+<pre id="data"></pre>
+<script>
+fetch('./api.json')
+  .then(r=>r.json())
+  .then(data=>document.getElementById('data').textContent=JSON.stringify(data,null,2));
+</script>
